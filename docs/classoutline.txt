@@ -1,0 +1,68 @@
+# Prolog all day workshop
+
+Positioning -
+Use the paper from online class
+
+Nature of queries (hand puppets)
+ * conversational
+ * constructive proof
+ * n solutions
+ * cut
+ * open/closed worlds
+
+Prolog is a query language - paradigm
+  - Do family tree.
+
+Demo adultschildren.pl - everybody step through
+
+Syntactic elements
+
+operators
+
+facts, rules, directives. Define them, don't go off on them.
+
+unification  (hand puppets)
+1=1
+1=2
+X=1
+1=1,a=a.
+X=Y.  (new X)
+X=Y,Y=3,3=X.
+
+SLD resolution - 
+start with a goal
+unify- resolve loop
+unify - argument binding
+    multimodality comes here (save append for later)
+    no arg eval
+    choice points
+
+failure
+
+backtracking.
+
+Prolog provides proofs - this is how we got into the brothers problem.
+
+recursion has tail call optimization
+
+Cuts - (hand puppets)
+
+Working with lists
+[X,Y,3 |Z] = [1,2,3,a,b]
+member
+append (now demo why multimodal is cool)
+length
+nth0
+
+Transpose exercise -
+Work in groups
+
+
+
+
+
+
+
+
+
+
