@@ -57,6 +57,20 @@ nth0
 Transpose exercise -
 Work in groups
 
+flatten
+run length encoding
+take_n
+graph traversal
+8 queens
+
+modules
+working with dicts
+exception handling
+file i/o
+
+web dev
+
+constraints
 
 
 
