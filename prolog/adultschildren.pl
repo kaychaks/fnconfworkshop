@@ -13,6 +13,9 @@ go :-
     adults_child_dog(3, 2, 1, left, [3-2-1-left], Moves),
     print_moves(Moves).
 
+print_arg(X + Y) :-
+    format("~w ~w~n", [X,Y]).
+
 adults_child_dog(0, 0, 0, right, _, []) :- !. % done!
 adults_child_dog(A, C, D, left, SoFar, [BA-BC-BD-to_right | Rest]) :-
     boat_left(BA, BC, BD),

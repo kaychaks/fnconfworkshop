@@ -45,7 +45,7 @@ Prolog provides proofs - this is how we got into the brothers problem.
 
 recursion has tail call optimization
 
-Cuts - (hand puppets)
+Cuts - (hand puppets)apap
 
 Working with lists
 [X,Y,3 |Z] = [1,2,3,a,b]
@@ -62,6 +62,8 @@ run length encoding
 take_n
 graph traversal
 8 queens
+
+DCG
 
 modules
 working with dicts
